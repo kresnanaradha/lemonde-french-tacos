@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #F5EDD6;
+  --color-taco-yellow: #F5A623;
+  --color-taco-dark: #D4820A;
+  --color-taco-brown: #3B1E08;
+  --color-taco-orange: #E8761A;
+  --color-french-blue: #002395;
+  --color-french-red: #ED2939;
+
+  --font-display: "Baloo 2", sans-serif;
+  --font-body: "Nunito", sans-serif;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #F5EDD6;
+  color: #3B1E08;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Baloo 2", sans-serif;
+}
